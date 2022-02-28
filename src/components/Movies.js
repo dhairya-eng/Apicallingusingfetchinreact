@@ -31,10 +31,10 @@ function Movies() {
           return (
              <div className='col-md-4'>
               <div className="card col-lg-4 ml-20" style={{width:18+'rem'}}>
-               <img src={c.avatar_url} class="card-img-top" alt="..."/>
+               <img src={c.url} class="card-img-top" alt="..."/>
               <div className="card-body">
                <a className="card-text">{c.url}</a>
-               <a className='card-text'>{c.organizations_url}</a>
+               <a className='card-text'>{c.url}</a>
                 </div>
                </div>
               </div>  
