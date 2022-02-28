@@ -1,0 +1,14 @@
+/* .m{
+    width: 4000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.avator>img{
+    margin: 10px;
+    border-radius:2pc;
+}
+.info{
+    padding: 5px;
+}
